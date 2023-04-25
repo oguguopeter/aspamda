@@ -11,20 +11,20 @@ import Login from './Pages/Login'
 const App = () => {
   const authenticated= true
   return (
-    // <BrowserRouter>
-    //   <Routes>
-    //     <Route path='/' element={<Home />} />
-    //     <Route path='/about' element={<About />} />
-    //     <Route path='/contact' element={<Contact />} />
-    //     <Route path='/services' element={<Services />} />
-    //   </Routes>
-    // </BrowserRouter>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/services' element={<Services />} />
+      </Routes>
+    </BrowserRouter>
 
-    <>
-    {authenticated ? <Home /> : <Login/>}
+    // <>
+    // {authenticated ? <Home /> : <Login/>}
       
       
-    </>
+    // </>
   )
 }
 
