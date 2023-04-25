@@ -1,10 +1,10 @@
 import React from 'react'
-// import About from './Pages/about/About'
-// import Contact from './Pages/contact/Contact'
-// import Services from './Pages/services/Services'
+import About from './Pages/about/About'
+import Contact from './Pages/contact/Contact'
+import Services from './Pages/services/Services'
 import Home from './Pages/home/Home'
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from './Pages/Login'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import Login from './Pages/Login'
 
 
 
@@ -20,11 +20,7 @@ const App = () => {
       </Routes>
     </BrowserRouter>
 
-    // <>
-    // {authenticated ? <Home /> : <Login/>}
-      
-      
-    // </>
+   
   )
 }
 
