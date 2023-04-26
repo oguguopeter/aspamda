@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Aspamda App, your surest plug for any vehicle spare parts.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
